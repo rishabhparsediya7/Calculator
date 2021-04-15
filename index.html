@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="result">
+                <span id="query" class="query-field"> </span>
+
+                <span id="result" class="text-field"> </span>
+            </div>
+            <div class="numbers">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="card" onclick="shownumber('C')">
+                            <p>C</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('Del')">
+                            <p>Del</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('%')" style="background-color:#fb8500;">
+                            <p>%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('7')">
+                            <p>7</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('8')">
+                            <p>8</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('9')">
+                            <p>9</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('*')" style="background-color:#fb8500;">
+                            <p><i class="fa fa-times" aria-hidden="true"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('4')">
+                            <p>4</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('5')">
+                            <p>5</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('6')">
+                            <p>6</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('-')" style="background-color:#fb8500;">
+                            <p>-</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('1')">
+                            <p>1</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('2')">
+                            <p>2</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('3')">
+                            <p>3</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('+')" style="background-color:#fb8500;">
+                            <p>+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="card" onclick="shownumber('0')">
+                            <p>0</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('.')">
+                            <p>.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="card" onclick="shownumber('=')" style="background-color:#fb8500;">
+                            <p>=</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
